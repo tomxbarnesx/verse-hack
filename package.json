@@ -1,5 +1,7 @@
 {
   "name": "donuts",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "lyricist": "^2.2.2"
+  }
 }
