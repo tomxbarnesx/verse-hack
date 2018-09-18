@@ -11,6 +11,6 @@
 //     }
 // });
 
-const lyricist = new Lyricist('QBLJO_4WOqwWeM7ccMFGsnH3EUeMbWdZv01G53H4RPpjz8voJUPdka-Ohk-DJWZN');
+const lyricist = new Lyricist();
 
 lyricist.song(714198, { textFormat: 'html' }).then(song => console.log(song.description.html));
